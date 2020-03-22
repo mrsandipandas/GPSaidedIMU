@@ -12,5 +12,8 @@ and study the improved performance during GPS signal outage.
 ![GNSS outage at 200s](Plots/gnss_outage.jpg)
 
 #### GNSS-receiver outage at 200s with position error
-![Height error](Plots/gnss_outage_height.jpg "GNSS outage with height profile") ![X,Y error](Plots/gnss_outage_xy.jpg "GNSS outage with X, Y profile")
 
+<table><tr>
+<td> <img src="Plots/gnss_outage_height.jpg" alt="GNSS outage with height profile" style="width: 45%;"/> </td>
+<td> <img src="Plots/gnss_outage_xy.jpg" alt="GNSS outage with X, Y profile" style="width: 45%;"/> </td>
+</tr></table>
