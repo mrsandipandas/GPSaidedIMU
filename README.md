@@ -9,7 +9,10 @@ and study the improved performance during GPS signal outage.
 ### GNSS-receiver outage simulation
 
 #### GNSS-receiver outage at 200s
-![GNSS outage at 200s](Plots/gnss_outage.jpg)
+<table><tr>
+<td> <img src="Plots/gnss_outage.jpg" alt="GNSS outage at 200s" style="width: 45%;"/> </td>
+<td> <img src="Plots/gnss_outage_speed.jpg" alt="Speed vs Time" style="width: 45%;"/> </td>
+</tr></table>
 
 #### GNSS-receiver outage at 200s with position error
 
