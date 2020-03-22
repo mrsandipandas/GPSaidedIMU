@@ -6,6 +6,6 @@ Here we study an inertial navigation system (INS) constructed using sensor fusio
 *Measurements from a speedometer to the navigation fusion filter.
 and study the improved performance during GPS signal outage.
 
-### GNSS-receiver outage simulation
+#### GNSS-receiver outage simulation
 
 ![GNSS outage at 200s](Plots/gnss_outage.jpg)
