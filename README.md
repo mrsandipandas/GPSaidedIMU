@@ -8,7 +8,7 @@ and study the improved performance during GPS signal outage.
 
 ### 1. Bias estimation
 
-#### Position error growth with time for Gyro-bias
+#### Position error growth with time for Gyro-bias in Lund (55 N) and Stockholm (59 N)
 <table><tr>
 <td> <img src="Plots/bias_lund.jpg" alt="Position bias in Lund" style="width: 45%;"/> </td>
 <td> <img src="Plots/bias_stockholm.jpg" alt="Position bias in Stockholm" style="width: 45%;"/> </td>
