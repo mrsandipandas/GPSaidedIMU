@@ -33,8 +33,8 @@ and study the improved performance during GPS signal outage.
 
 #### Position and speed profile
 <table><tr>
-<td> <img src="Plots/gnss_outage_non_holonomic.jpg" alt="GNSS outage at 200s" style="width: 45%;"/> </td>
-<td> <img src="Plots/gnss_outage_non_holonomic_speed.jpg" alt="Speed vs Time" style="width: 45%;"/> </td>
+<td style="width: 45%;" <img src="Plots/gnss_outage_non_holonomic.jpg" alt="GNSS outage at 200s"/> </td>
+<td style="width: 45%;"> <img src="Plots/gnss_outage_non_holonomic_speed.jpg" alt="Speed vs Time"/> </td>
 </tr></table>
 
 #### Position error
@@ -62,7 +62,7 @@ and study the improved performance during GPS signal outage.
 ### 5. Position with IMU, Speed and GNSS
 
 <table><tr>
-<td> <img src="Plots/final.jpg" alt="GNSS outage with height profile" style="width: 50%;"/> </td>
+<td style="width: 50%; align: center;"> <img src="Plots/final.jpg" alt="GNSS outage with height profile"/> </td>
 </tr></table>
 
 
