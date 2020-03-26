@@ -10,8 +10,8 @@ and study the improved performance during GPS signal outage.
 
 #### Position error growth with time for Gyro-bias in Lund (55 N) and Stockholm (59 N)
 <table><tr>
-<td> <img src="Plots/bias_lund.jpg" alt="Position bias in Lund" style="width: 45%;"/> </td>
-<td> <img src="Plots/bias_stockholm.jpg" alt="Position bias in Stockholm" style="width: 45%;"/> </td>
+<td width ="45%;"> <img src="Plots/bias_lund.jpg" alt="Position bias in Lund"/> </td>
+<td width ="45%;"> <img src="Plots/bias_stockholm.jpg" alt="Position bias in Stockholm"/> </td>
 </tr></table>
 
 ### 2. GNSS-receiver outage simulation at 200s
@@ -25,16 +25,16 @@ and study the improved performance during GPS signal outage.
 #### Position error
 
 <table><tr>
-<td> <img src="Plots/gnss_outage_height.jpg" alt="GNSS outage with height profile" style="width: 45%;"/> </td>
-<td> <img src="Plots/gnss_outage_xy.jpg" alt="GNSS outage with X, Y profile" style="width: 45%;"/> </td>
+<td width ="45%;"> <img src="Plots/gnss_outage_height.jpg" alt="GNSS outage with height profile" /> </td>
+<td width ="45%;"> <img src="Plots/gnss_outage_xy.jpg" alt="GNSS outage with X, Y profile"/> </td>
 </tr></table>
 
 ### 3. GNSS-receiver outage simulation with non-holonomic constraints (Position RMS error = 9.7721)
 
 #### Position and speed profile
 <table><tr>
-<td style="width: 45%;" <img src="Plots/gnss_outage_non_holonomic.jpg" alt="GNSS outage at 200s"/> </td>
-<td style="width: 45%;"> <img src="Plots/gnss_outage_non_holonomic_speed.jpg" alt="Speed vs Time"/> </td>
+<td width ="45%;" <img src="Plots/gnss_outage_non_holonomic.jpg" alt="GNSS outage at 200s"/> </td>
+<td width ="45%;"> <img src="Plots/gnss_outage_non_holonomic_speed.jpg" alt="Speed vs Time"/> </td>
 </tr></table>
 
 #### Position error
