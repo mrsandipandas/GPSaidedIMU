@@ -10,59 +10,59 @@ and study the improved performance during GPS signal outage.
 
 #### Position error growth with time for Gyro-bias in Lund (55 N) and Stockholm (59 N)
 <table><tr>
-<td width ="45%;"> <img src="Plots/bias_lund.jpg" alt="Position bias in Lund"/> </td>
-<td width ="45%;"> <img src="Plots/bias_stockholm.jpg" alt="Position bias in Stockholm"/> </td>
+<td width ="45%;"> <img src="Plots/bias_lund.jpg" alt="Position bias in Lund"  style="width: 45%;"/> </td>
+<td width ="45%;"> <img src="Plots/bias_stockholm.jpg" alt="Position bias in Stockholm" style="width: 45%;"/> </td>
 </tr></table>
 
 ### 2. GNSS-receiver outage simulation at 200s
 
 #### Position and speed profile
 <table><tr>
-<td> <img src="Plots/gnss_outage.jpg" alt="GNSS outage at 200s" style="width: 45%;"/> </td>
-<td> <img src="Plots/gnss_outage_speed.jpg" alt="Speed vs Time" style="width: 45%;"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage.jpg" alt="GNSS outage at 200s" style="width: 45%;" style="width: 45%;"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage_speed.jpg" alt="Speed vs Time" style="width: 45%;" style="width: 45%;"/> </td>
 </tr></table>
 
 #### Position error
 
 <table><tr>
-<td width ="45%;"> <img src="Plots/gnss_outage_height.jpg" alt="GNSS outage with height profile" /> </td>
-<td width ="45%;"> <img src="Plots/gnss_outage_xy.jpg" alt="GNSS outage with X, Y profile"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage_height.jpg" alt="GNSS outage with height profile" style="width: 45%;"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage_xy.jpg" alt="GNSS outage with X, Y profile" style="width: 45%;"/> </td>
 </tr></table>
 
 ### 3. GNSS-receiver outage simulation with non-holonomic constraints (Position RMS error = 9.7721)
 
 #### Position and speed profile
 <table><tr>
-<td width ="45%;" <img src="Plots/gnss_outage_non_holonomic.jpg" alt="GNSS outage at 200s"/> </td>
-<td width ="45%;"> <img src="Plots/gnss_outage_non_holonomic_speed.jpg" alt="Speed vs Time"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage_non_holonomic.jpg" alt="GNSS outage at 200s" style="width: 45%;"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage_non_holonomic_speed.jpg" alt="Speed vs Time" style="width: 45%;"/> </td>
 </tr></table>
 
 #### Position error
 
 <table><tr>
-<td> <img src="Plots/gnss_outage_non_holonomic_height.jpg" alt="GNSS outage with height profile" style="width: 45%;"/> </td>
-<td> <img src="Plots/gnss_outage_non_holonomic_xy.jpg" alt="GNSS outage with X, Y profile" style="width: 45%;"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage_non_holonomic_height.jpg" alt="GNSS outage with height profile" style="width: 45%;"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage_non_holonomic_xy.jpg" alt="GNSS outage with X, Y profile" style="width: 45%;"/> </td>
 </tr></table>
 
 ### 4. GNSS-receiver outage simulation with non-holonomic constraints and speed-aiding (Position RMS error = 10.0474)
 
 #### Position and speed profile
 <table><tr>
-<td> <img src="Plots/gnss_outage_all.jpg" alt="GNSS outage at 200s" style="width: 45%;"/> </td>
-<td> <img src="Plots/gnss_outage_all_speed.jpg" alt="Speed vs Time" style="width: 45%;"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage_all.jpg" alt="GNSS outage at 200s" style="width: 45%;"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage_all_speed.jpg" alt="Speed vs Time" style="width: 45%;"/> </td>
 </tr></table>
 
 #### Position error
 
 <table><tr>
-<td> <img src="Plots/gnss_outage_all_height.jpg" alt="GNSS outage with height profile" style="width: 45%;"/> </td>
-<td> <img src="Plots/gnss_outage_all_xy.jpg" alt="GNSS outage with X, Y profile" style="width: 45%;"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage_all_height.jpg" alt="GNSS outage with height profile" style="width: 45%;"/> </td>
+<td width ="45%;" align="center"> <img src="Plots/gnss_outage_all_xy.jpg" alt="GNSS outage with X, Y profile" style="width: 45%;"/> </td>
 </tr></table>
 
 ### 5. Position with IMU, Speed and GNSS
 
 <table><tr>
-<td style="width: 50%; align: center;"> <img src="Plots/final.jpg" alt="GNSS outage with height profile"/> </td>
+<td width ="50%;" align="center"> <img src="Plots/final.jpg" alt="GNSS outage with height profile" style="width: 50%;"/> </td>
 </tr></table>
 
 
