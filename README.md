@@ -6,7 +6,15 @@ Here we study an inertial navigation system (INS) constructed using sensor fusio
 * Measurements from a speedometer to the navigation fusion filter.
 and study the improved performance during GPS signal outage.
 
-### 1. GNSS-receiver outage simulation at 200s
+### 1. Bias estimation
+
+#### Position error growth with time for Gyro-bias
+<table><tr>
+<td> <img src="Plots/bias_lund.jpg" alt="Position bias in Lund" style="width: 45%;"/> </td>
+<td> <img src="Plots/bias_stockholm.jpg" alt="Position bias in Stockholm" style="width: 45%;"/> </td>
+</tr></table>
+
+### 2. GNSS-receiver outage simulation at 200s
 
 #### Position and speed profile
 <table><tr>
@@ -21,7 +29,7 @@ and study the improved performance during GPS signal outage.
 <td> <img src="Plots/gnss_outage_xy.jpg" alt="GNSS outage with X, Y profile" style="width: 45%;"/> </td>
 </tr></table>
 
-### 2. GNSS-receiver outage simulation with non-holonomic constraints (Position RMS error = 9.7721)
+### 3. GNSS-receiver outage simulation with non-holonomic constraints (Position RMS error = 9.7721)
 
 #### Position and speed profile
 <table><tr>
@@ -36,7 +44,7 @@ and study the improved performance during GPS signal outage.
 <td> <img src="Plots/gnss_outage_non_holonomic_xy.jpg" alt="GNSS outage with X, Y profile" style="width: 45%;"/> </td>
 </tr></table>
 
-### 3. GNSS-receiver outage simulation with non-holonomic constraints and speed-aiding (Position RMS error = 10.0474)
+### 4. GNSS-receiver outage simulation with non-holonomic constraints and speed-aiding (Position RMS error = 10.0474)
 
 #### Position and speed profile
 <table><tr>
@@ -50,3 +58,11 @@ and study the improved performance during GPS signal outage.
 <td> <img src="Plots/gnss_outage_all_height.jpg" alt="GNSS outage with height profile" style="width: 45%;"/> </td>
 <td> <img src="Plots/gnss_outage_all_xy.jpg" alt="GNSS outage with X, Y profile" style="width: 45%;"/> </td>
 </tr></table>
+
+### 5. Position with IMU, Speed and GNSS
+
+<table><tr>
+<td> <img src="Plots/final.jpg" alt="GNSS outage with height profile" style="width: 50%;"/> </td>
+</tr></table>
+
+
